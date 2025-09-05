@@ -111,42 +111,47 @@ Actualizar tu rama antes de subir cambios:       # git pull origin main
 ```
 <!-- Boca -->
 ## 🔹 Comparación de cambios
-bash
+```bash
 git diff                     # Ver cambios no preparados (working directory)
 git diff --staged            # Ver cambios ya en el staging area
 git diff <id1> <id2>         # Comparar dos commits
+```
  
 
 ## 🔹 Etiquetas (Tags)
-bash
+```bash
 git tag                      # Listar tags existentes
 git tag v1.0                 # Crear un tag simple
 git tag -a v1.0 -m "Versión 1.0"   # Crear tag anotado con mensaje
 git show v1.0                # Ver detalles de un tag
 git push origin v1.0         # Subir un tag al remoto
 git push origin --tags       # Subir todos los tags
+```
  
 
 ## 🔹 Colaboración y resolución de conflictos
 Cuando varias personas trabajan en el mismo archivo, pueden ocurrir conflictos.
 Estos comandos ayudan a resolverlos:
-bash
+```bash
 git pull --rebase            # Actualizar rama aplicando commits encima de los nuevos
 git merge nombre-rama        # Fusionar otra rama a la actual
+```
  
  Si hay conflicto:
  1. Editar manualmente los archivos
  2. Marcar como resuelto
-bash
+```bash
 git add archivo_conflicto.txt
 git commit                   # Confirmar resolución
+```
  
 
 ## 🔹 Recuperar commits y ramas borradas
-bash
+```bash
 git reflog                   # Ver todas las referencias (incluyendo commits borrados)
 git checkout <id-commit>     # Volver a un commit específico
 git branch recuperar <id>    # Crear una nueva rama a partir de un commit perdido
+```
 
 
 
