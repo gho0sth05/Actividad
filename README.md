@@ -59,6 +59,17 @@ git help                         # Ayuda general
 git help <comando>               # Ayuda de un comando
 ```
 <!-- Laura -->
+## Historial y versiones
+```bash
+git log                          # Historial detallado
+git log --oneline                # Historial resumido
+git log --graph --oneline        # Historial en árbol
+git show HEAD                    # Ver último commit
+git show <id-commit>             # Ver un commit específico
+git diff                         # Cambios sin guardar
+git diff --staged                # Cambios en stage
+``` 
+
 ## 🔹 Guardar y recuperar trabajo temporal (Stash)
 ```bash
 git stash                # Guardar cambios en memoria temporal
