@@ -1,6 +1,6 @@
 # Actividad
 # comandos básicos de Git y GitHub.
-Este documento recopila los comandos más usados de **Git** y **GitHub** para el trabajo colaborativo y el control de versiones.
+Con mi grupo de trabajo Karen Gonzalez, Laura Fonseca , Juan Bocanegra vamos a mostar algunos de  los comandos básicos de Git y GitHub..
 ---
 
 ## 🔹 Configuración
